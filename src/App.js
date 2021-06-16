@@ -1,11 +1,12 @@
-import { useState } from "react";
+import React from "react";
 import "./styles.css";
-import UnsortedArray from "./component/UnsortedArray";
+import UseStateArray from "./component/UseStateArray";
 
 export default function App() {
   return (
     <div className="App">
-      <UnsortedArray />
+      <h1>React Hooks</h1>
+      <UseStateArray />
     </div>
   );
 }
